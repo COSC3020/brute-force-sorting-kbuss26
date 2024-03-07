@@ -21,3 +21,16 @@ randomly without memory instead of systematically trying them?
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
+
+### Response
+
+Generally, the runtime complexity of the brute force sort algorithm falls under
+$T(n) \in \Theta(n * n!)$. This comes as a result of iterating through the elements of
+an array, $n$, where the same function is recursively called inside each iteration
+with $n - 1$ more iterations. Thus, we would have 
+$n * (n - 1) * (n - 2) * ... * 2 * 1$, which is $n!$ by definition.
+
+When checking if the array is sorted, the algorithm iterates through each element 
+of the array. Every permutation of the array is checked in the worst case
+scenario, and the algorithm will stop at the point where one element is greater
+than another.

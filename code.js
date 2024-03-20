@@ -1,30 +1,9 @@
 /*
     Keifer Buss 
     COSC-3020-01 
-    Last modified Feb. 22 2024
+    Last modified Mar. 20 2024
     Sources: 
     - None for this program
-*/
-
-// Block of permutation check testing - run if you want
-/*
-array1 = [[2, 3, 4, 5, 1], // Worst case
-          [1, 2, 3, 4, 5], // Best case
-          [5, 4, 4, 2, 2, 1], // Stability check
-          [7, 6, 3, 4, 5, 2, 1], // Random number from keyboard slam check
-          [-3], // One element check
-          [], // Zero element check
-          [2, 4, 7, 10, 14, 19, 25, 32, 39, 1, 2, 3]]; // Inadvertent computer benchmark
-var temp = [];
-for(var i = 0; i < array1.length; i++) {
-    temp = [];
-    for (var j = 0; j < array1[i].length; j++) {
-        temp.push((array1[i])[j]);
-    }
-    console.log("Array " + (i + 1) + " sorted in " + permutationSort(array1[i], 0) + 
-                " out of " + factorial(array1[i].length) + " permutations\n [" + 
-                temp + "] ---> [" + array1[i] + "]");
-}
 */
 
 // The main function

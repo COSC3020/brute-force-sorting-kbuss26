@@ -38,7 +38,7 @@ per the worst case scenario, the runtime complexity is $T(n) \in \Theta(n \cdot 
 In the best case scenario, the algorithm is checked in linear time, $T(n) \in \Theta(n)$.
 This is because the code recursively calls the permutation n times, then checks one
 permutation. Since we're assuming is the best case scenario, the permutation checked 
-would be sorted, so the time would change to $T(n) = 2n \in \Theta(n)$.
+would be sorted, so the time complexity exists as $T(n) = 2n \in \Theta(n)$.
 
 If we generated permutations randomly, the same unsorted permutations could be generated
 forever in theory since we do not systemically try permutations nor store them in any memory

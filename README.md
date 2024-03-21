@@ -27,13 +27,13 @@ most important part. Add your answer to this markdown file.
 Generally, the worst runtime complexity of the brute force sort algorithm falls under
 $T(n) \in \Theta(n \cdot n!)$. This comes as a result of iterating through the elements of
 an array, $n$, where the same function is recursively called inside each iteration
-with $n - 1$ more iterations. Thus, we would have 
+with $n - 1$ nested iterations. Thus, we would have 
 $n \cdot (n - 1) \cdot (n - 2) \cdot ... \cdot 2 \cdot 1$, which is $n!$ by definition. 
 
 When checking if the array is sorted, the algorithm iterates through each element 
 of the array to see if the element is greater than the previous element. Worst case scenario
 would have be $n$, which is already inside the $n!$ loop. Thus, if every permutation is checked
-per the worst case scenario, the runtime complexity is $T(n) \in (n \cdot n!)$.
+per the worst case scenario, the runtime complexity is $T(n) \in \Theta(n \cdot n!)$.
 
 In the best case scenario, the algorithm is checked in linear time, $T(n) \in \Theta(n)$.
 This is because the code recursively calls the permutation n times, then checks one
